@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
-import { getAliases } from 'vite-aliases'
+import { ViteAliases } from 'vite-aliases'
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 
-const aliases = getAliases();
+const aliases = ViteAliases();
 const preprocess = require('svelte-preprocess')
 
 
